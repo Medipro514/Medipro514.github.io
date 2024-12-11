@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Define el juego de caracteres para la página (UTF-8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el diseño adaptable para dispositivos móviles -->
+    <title>Medipro</title> <!-- Título de la página que se muestra en la pestaña del navegador -->
+    
+    <!-- Aquí se define el logo o ícono que aparecerá en la pestaña del navegador -->
+    <link rel="icon" href="C:/Users/pc/Desktop/pagina web/imagenes/logo.png" type="image/png">
+
+    <style>
+        body {
+            background-color: #fadbd8; /* Color de fondo de la página */
+            font-family: Arial, sans-serif; /* Fuente de texto utilizada en la página */
+            text-align: center; /* Alinea el texto al centro de la página */
+            padding: 50px; /* Espacio alrededor del contenido de la página */
+            color: #000000; /* Color del texto principal */
+            position: relative; /* Posicionamiento relativo para el logo */
+        }
+
+        /* Estilo para el botón del logo */
+        .logo-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: none; /* Sin fondo para que sea solo la imagen */
+            border: none; /* Elimina el borde del botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        }
+
+        /* Estilo para la imagen del logo dentro del botón */
+        .logo-btn img {
+            width: 100px; /* Ajusta el ancho del logo */
+            height: 100px; /* Ajusta la altura del logo */
+        }
+
+        h1 {
+            color: #000000; /* Color del texto del encabezado principal */
+        }
+
+        .content {
+            max-width: 800px; /* Ancho máximo del contenedor de contenido */
+            margin: auto; /* Centra el contenedor de contenido horizontalmente */
+            text-align: left; /* Alinea el texto dentro del contenedor de contenido a la izquierda */
+        }
+
+        h2 {
+            color: #000000; /* Color del texto de los subtítulos */
+        }
+
+        p {
+            line-height: 1.6; /* Espaciado entre líneas de texto para mejorar la legibilidad */
+        }
+
+        ul {
+            line-height: 1.6; /* Espaciado entre líneas en listas para mejorar la legibilidad */
+        }
+
+        table {
+            width: 100%; /* Ancho de la tabla ocupa el 100% del contenedor */
+            border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
+            margin-top: 20px; /* Espacio arriba de la tabla */
+        }
+
+        table, th, td {
+            border: 1px solid #ddd; /* Borde de la tabla y celdas en color gris claro */
+        }
+
+        th, td {
+            padding: 10px; /* Espacio dentro de las celdas */
+            text-align: left; /* Alinea el texto dentro de las celdas a la izquierda */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Color de fondo para los encabezados de la tabla */
+        }
+    </style>
+</head>
+<body>
+    <!-- Botón con imagen de logo que redirige a la ventana de "Comandos" -->
+    <button class="logo-btn" onclick="window.location.href='comandos.html'">
+        <img src="C:/Users/pc/Desktop/pagina web/imagenes/logo.png" alt="Logo">
+    </button>
+
+    <h1>Las Yardas</h1> <!-- Título principal de la página -->
+    <div class="content"> <!-- Contenedor para el contenido de la página -->
+        <h2>¿Qué es una Yarda?</h2> <!-- Subtítulo -->
+        <p>La yarda es una unidad de medida de longitud del sistema imperial que se utiliza principalmente en el Reino Unido y los Estados Unidos. Una yarda equivale a 3 pies o 36 pulgadas, o aproximadamente 91.44 centímetros. Se utiliza en la construcción, deportes y para medir distancias en general.</p> <!-- Párrafo explicativo sobre yardas -->
+        
+        <h2>Equivalencias y Conversiones</h2> <!-- Subtítulo -->
+        <ul>
+            <li>1 yarda = 3 pies</li> <!-- Conversión de yardas a pies -->
+            <li>1 yarda = 36 pulgadas</li> <!-- Conversión de yardas a pulgadas -->
+            <li>1 yarda = 91.44 centímetros</li> <!-- Conversión de yardas a centímetros -->
+            <li>1 yarda = 914.4 milímetros</li> <!-- Conversión de yardas a milímetros -->
+            <li>1 yarda = 0.3333 metros</li> <!-- Conversión de yardas a metros -->
+            <li>1 yarda = 0.000333 kilómetros</li> <!-- Conversión de yardas a kilómetros -->
+        </ul>
+
+        <h2>Usos de la Yarda</h2> <!-- Subtítulo -->
+        <p>Las yardas se utilizan en una variedad de contextos, incluyendo la medición de campos deportivos, en la construcción para medir dimensiones y en la fabricación de textiles. También son comunes en la medición de distancias en deportes como el fútbol americano y el golf.</p> <!-- Párrafo sobre los usos de las yardas -->
+        
+        <h2>Ejemplos de Uso</h2> <!-- Subtítulo -->
+        <p>Una cancha de fútbol americano tiene una longitud de 120 yardas. Los trajes y telas a menudo se venden en yardas, como 2 yardas de tela para confeccionar una prenda.</p> <!-- Ejemplo de uso de yardas -->
+        
+        <h2>Más Ejemplos</h2> <!-- Subtítulo -->
+        <ul>
+            <li>El campo de golf tiene hoyos que se miden en yardas.</li> <!-- Ejemplo en deportes -->
+            <li>Las dimensiones de algunos terrenos y propiedades se especifican en yardas.</li> <!-- Ejemplo en bienes raíces -->
+            <li>Las yardas también se utilizan para medir longitudes en algunos deportes de campo, como el cricket.</li> <!-- Ejemplo en deportes -->
+            <li>En la construcción, las medidas de materiales pueden estar especificadas en yardas.</li> <!-- Ejemplo en construcción -->
+        </ul>
+        
+        <h2>Factores de Conversión</h2> <!-- Subtítulo -->
+        <p>Para convertir entre yardas y otras unidades de medida, es esencial conocer las conversiones básicas. Aquí tienes una tabla de conversión rápida:</p> <!-- Párrafo sobre la importancia de la conversión -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Unidad</th> <!-- Encabezado de columna -->
+                    <th>Equivalencia</th> <!-- Encabezado de columna -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yardas</td>
+                    <td>1 yd</td> <!-- Conversión de yardas -->
+                </tr>
+                <tr>
+                    <td>Pies</td>
+                    <td>1 yd = 3 ft</td> <!-- Conversión de yardas a pies -->
+                </tr>
+                <tr>
+                    <td>Pulgadas</td>
+                    <td>1 yd = 36 in</td> <!-- Conversión de yardas a pulgadas -->
+                </tr>
+                <tr>
+                    <td>Centímetros</td>
+                    <td>1 yd = 91.44 cm</td> <!-- Conversión de yardas a centímetros -->
+                </tr>
+                <tr>
+                    <td>Metros</td>
+                    <td>1 yd = 0.3333 m</td> <!-- Conversión de yardas a metros -->
+                </tr>
+                <tr>
+                    <td>Kilómetros</td>
+                    <td>1 yd = 0.000333 km</td> <!-- Conversión de yardas a kilómetros -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
+
+https://medipro-5a266.web.app
+
+https://medipro-5a266.web.app

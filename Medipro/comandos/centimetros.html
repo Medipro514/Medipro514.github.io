@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Define el juego de caracteres para la página (UTF-8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el diseño adaptable para dispositivos móviles -->
+    <title>Medipro</title> <!-- Título de la página que se muestra en la pestaña del navegador -->
+    <!-- Favicon para la pestaña del navegador -->
+    <link rel="icon" href="C:/Users/pc/Desktop/pagina web/imagenes/logo.png" type="image/png">
+    <style>
+        body {
+            background-color: #e1dfd7; /* Color de fondo de la página */
+            font-family: Arial, sans-serif; /* Fuente de texto utilizada en la página */
+            text-align: center; /* Alinea el texto al centro de la página */
+            padding: 50px; /* Espacio alrededor del contenido de la página */
+            color: #000000; /* Color del texto principal */
+            position: relative; /* Posicionamiento relativo para el logo */
+        }
+
+        /* Estilo para el botón del logo */
+        .logo-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: none; /* Sin fondo para que sea solo la imagen */
+            border: none; /* Elimina el borde del botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        }
+
+        /* Estilo para la imagen del logo dentro del botón */
+        .logo-btn img {
+            width: 100px; /* Ajusta el ancho del logo */
+            height: 100px; /* Ajusta la altura del logo */
+        }
+
+        h1 {
+            color: #000000; /* Color del texto del encabezado principal */
+        }
+
+        .content {
+            max-width: 800px; /* Ancho máximo del contenedor de contenido */
+            margin: auto; /* Centra el contenedor de contenido horizontalmente */
+            text-align: left; /* Alinea el texto dentro del contenedor de contenido a la izquierda */
+        }
+
+        h2 {
+            color: #000000; /* Color del texto de los subtítulos */
+        }
+
+        p {
+            line-height: 1.6; /* Espaciado entre líneas de texto para mejorar la legibilidad */
+        }
+
+        ul {
+            line-height: 1.6; /* Espaciado entre líneas en listas para mejorar la legibilidad */
+        }
+
+        table {
+            width: 100%; /* Ancho de la tabla ocupa el 100% del contenedor */
+            border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
+            margin-top: 20px; /* Espacio arriba de la tabla */
+        }
+
+        table, th, td {
+            border: 1px solid #ddd; /* Borde de la tabla y celdas en color gris claro */
+        }
+
+        th, td {
+            padding: 10px; /* Espacio dentro de las celdas */
+            text-align: left; /* Alinea el texto dentro de las celdas a la izquierda */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Color de fondo para los encabezados de la tabla */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botón con imagen de logo que redirige a la ventana de "Comandos" -->
+    <button class="logo-btn" onclick="window.location.href='comandos.html'">
+        <img src="C:/Users/pc/Desktop/pagina web/imagenes/logo.png" alt="Logo">
+    </button>
+
+    <h1>Los Centímetros</h1> <!-- Título principal de la página -->
+    <div class="content"> <!-- Contenedor para el contenido de la página -->
+        <h2>¿Qué es un Centímetro?</h2> <!-- Subtítulo -->
+        <p>Los centímetros son una unidad de medida de longitud en el sistema métrico. Es una subdivisión del metro y equivale a una centésima parte de un metro. Es decir, 1 centímetro = 0.01 metros. Los centímetros se usan comúnmente para medir objetos de tamaño moderado, como la altura de una persona o las dimensiones de una habitación. Son una unidad conveniente para medir cosas que no son tan pequeñas como los milímetros, pero tampoco tan grandes como los metros.</p> <!-- Párrafo explicativo sobre centímetros -->
+        
+        <h2>Equivalencias y Conversiones</h2> <!-- Subtítulo -->
+        <ul>
+            <li>1 centímetro = 10 milímetros</li> <!-- Conversión de centímetros a milímetros -->
+            <li>1 centímetro = 0.3937 pulgadas</li> <!-- Conversión de centímetros a pulgadas -->
+            <li>1 centímetro = 0.03281 pies</li> <!-- Conversión de centímetros a pies -->
+            <li>1 centímetro = 0.01094 yardas</li> <!-- Conversión de centímetros a yardas -->
+            <li>1 centímetro = 0.01 metros</li> <!-- Conversión de centímetros a metros -->
+            <li>1 centímetro = 1.0E-5 kilómetros</li> <!-- Conversión de centímetros a kilómetros -->
+        </ul>
+
+        <h2>Usos del Centímetro</h2> <!-- Subtítulo -->
+        <p>Los centímetros se utilizan en muchas situaciones cotidianas, como medir la altura de una persona, las dimensiones de muebles o la longitud de objetos. También se usan en la moda para medir tallas de ropa y en la construcción para medir dimensiones de estructuras.</p> <!-- Párrafo sobre los usos de los centímetros -->
+        
+        <h2>Ejemplos de Uso</h2> <!-- Subtítulo -->
+        <p>Un objeto que mide 30 cm de largo podría ser una regla de oficina. Las medidas en los planos arquitectónicos a menudo se especifican en centímetros para facilitar la interpretación de las dimensiones.</p> <!-- Ejemplo de uso de centímetros -->
+        
+        <h2>Más Ejemplos</h2> <!-- Subtítulo -->
+        <ul>
+            <li>La altura promedio de un adulto humano mide entre 150 y 190 cm.</li> <!-- Ejemplo de altura en centímetros -->
+            <li>Una hoja de papel tamaño A4 mide 21 cm de ancho y 29.7 cm de alto.</li> <!-- Ejemplo de tamaño de papel en centímetros -->
+            <li>El tamaño de una pantalla de televisión se mide a menudo en centímetros diagonales.</li> <!-- Ejemplo de tamaño de pantalla en centímetros -->
+            <li>Las medidas en los patrones de costura para ropa suelen estar en centímetros para facilitar el ajuste.</li> <!-- Ejemplo en costura -->
+        </ul>
+        
+        <h2>Factores de Conversión</h2> <!-- Subtítulo -->
+        <p>Es importante tener en cuenta los factores de conversión para trabajar entre diferentes unidades de medida. Los centímetros son útiles para medir objetos de tamaño moderado. Aquí tienes una tabla de conversión rápida:</p> <!-- Párrafo sobre la importancia de la conversión -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Unidad</th> <!-- Encabezado de columna -->
+                    <th>Equivalencia</th> <!-- Encabezado de columna -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Centímetros</td>
+                    <td>1 cm</td> <!-- Conversión de centímetros -->
+                </tr>
+                <tr>
+                    <td>Milímetros</td>
+                    <td>10 cm = 100 mm</td> <!-- Conversión de centímetros a milímetros -->
+                </tr>
+                <tr>
+                    <td>Pulgadas</td>
+                    <td>2.54 cm = 1 in</td> <!-- Conversión de centímetros a pulgadas -->
+                </tr>
+                <tr>
+                    <td>Metros</td>
+                    <td>100 cm = 1 m</td> <!-- Conversión de centímetros a metros -->
+                </tr>
+                <tr>
+                    <td>Kilómetros</td>
+                    <td>100,000 cm = 1 km</td> <!-- Conversión de centímetros a kilómetros -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>  
